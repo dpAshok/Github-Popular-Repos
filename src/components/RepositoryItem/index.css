@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.card_container {
+  width: 200px;
+  list-style-type: none;
+  box-shadow: 0px 4px 4px 2px black;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.card_container img {
+  width: 100px;
+}
+.card_container h1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 15px;
+}
+.information_container {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  align-items: center;
+  margin: 16px 0px;
+}
+.information_container img {
+  width: 16px;
+  height: 16px;
+  align-self: flex-start;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+.information_container p {
+  font-size: 16px;
+  margin: 0px;
+  padding-left: 0px;
+}

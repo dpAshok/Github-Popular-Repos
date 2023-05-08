@@ -1,0 +1,44 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  font-family: 'Lobster';
+  margin: 50px 0px;
+}
+.githubContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.language_container {
+  display: flex;
+  color: black;
+}
+.cards_container {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.failure_container {
+  width: 100%;
+  display: flex;
+  color: black;
+  font-family: 'Roboto';
+  flex-direction: column;
+  align-items: center;
+}
+.failure_container img {
+  max-width: 600px;
+  margin: 20px 0px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}

@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.list_Items {
+  list-style-type: none;
+  margin: 20px;
+  color: green;
+  font-size: large;
+  width: 100%;
+  max-width: 900px;
+}
+@media screen and (max-width: 576px) {
+  .list_Items {
+    margin: 5px;
+  }
+}
+
+.activeButton {
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  /* font-weight: bold; */
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-style {
+  border: 2px solid skyblue;
+  /* background: #0284c7; */
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0284c7;
+}
